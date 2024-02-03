@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from "../firebase-config";
 import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
+
 
 const RegisterPage = () => {
   const navigate = useNavigate();
@@ -29,7 +31,12 @@ const RegisterPage = () => {
         onChange={(event) => setPassword(event.target.value)}
         type="password"
       ></input>
+      <br></br>
       <button onClick={handleRegister}> Create User </button>
+      <br></br>
+      <Link to={`/login`}>
+        <button> Already have an account? Login </button>
+      </Link>
     </div>
   );
 }
