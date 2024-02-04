@@ -1,0 +1,14 @@
+/* HomePage.css */
+
+.home-container {
+    max-width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* You can add more styles based on your design preferences */
+  

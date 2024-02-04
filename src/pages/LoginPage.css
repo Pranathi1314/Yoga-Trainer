@@ -1,0 +1,28 @@
+/* LoginPage.css */
+
+.login-container {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 110px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:  rgb(205, 234, 247);
+  }
+  
+  .input-field {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .login-container .login-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin : 10px 0px 0 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

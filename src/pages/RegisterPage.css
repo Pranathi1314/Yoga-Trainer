@@ -1,0 +1,39 @@
+.register-container {
+    max-width: 350px;
+    margin: auto;
+    margin-top: 110px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(205, 234, 247)
+  }
+  
+  .input-field {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .register-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 10px 0px 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-link {
+    text-decoration: none;
+  }
+  
+  .login-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
