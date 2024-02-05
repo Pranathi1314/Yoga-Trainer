@@ -8,7 +8,6 @@ const LoginPage = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
   const handleLogin = async () => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
@@ -33,6 +32,8 @@ const LoginPage = () => {
         type="password"
       ></input>
       <button className="login-button" onClick={handleLogin}> Login </button>
+      <br></br>
+      <a href='./'>Don't have an account? Register here</a>
     </div>
   );
 }

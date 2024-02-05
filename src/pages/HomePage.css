@@ -2,13 +2,23 @@
 
 .home-container {
     max-width: 100%;
-    height: 100vh;
+    height: 180vh;
     margin: auto;
     padding: 20px;
     /* border: 1px solid #ccc; */
     border-radius: 5px;
     text-align: center;
   }
-  
+
+  .home-container .logout-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin : 20px 0px 0 0;
+    border: none;
+    float: right;
+    border-radius: 5px;
+    cursor: pointer;
+  }
   /* You can add more styles based on your design preferences */
   
